@@ -4,6 +4,6 @@
 | Information | Short key | Long key |
 |----------------------|----|--------|
 | Show help list | -h | --help | 
-| Version | --version | -v |
+| Version | -v | --version |
 | List of numbers | -l | --list | 
 | Value(int-optional) | -V(int-optional) | --value=int-optional | 
