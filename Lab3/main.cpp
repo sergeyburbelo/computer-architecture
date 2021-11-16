@@ -10,8 +10,9 @@ int main(int argc, char *argv[]){
     int a=0;
 	map <string, bool> used;
 
-	int option_index = -1;
-	const char* short_options = "hlvV::?";
+	int option_index = -1; 
+	//h-help;l-list;v-version;V-value
+	const char* short_options = "hlvV::?"; 
 	
 	const struct option long_options[] = {
         {"help",0,NULL,'h'},
